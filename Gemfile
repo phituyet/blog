@@ -33,7 +33,7 @@ gem 'jquery-rails', "~> 4.3.1"
 #gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'redcarpet'
 gem 'bootstrap', '~> 4.0.0.alpha6'
-#gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise.git'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
