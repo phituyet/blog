@@ -26,12 +26,14 @@
         <td><%= time_ago_in_words(article.created_at) %></td>
         <td><%= @markdown.render(article.body).html_safe %></td>
         <td><%= link_to 'Show', article %></td>
+        <!--
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: "Do you want to delete the articles #{article.title}?" } %></td>
+        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: "Do you want to delete the articles #{article.title}?" } %></td
+        -->
       </tr>
       <% end %>
     </tbody>
   </table>
   <br>
-  
+
 </div>
