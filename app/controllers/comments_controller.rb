@@ -5,10 +5,14 @@ class CommentsController < ApplicationController
 
   def create
     @comment = @article.comments.create(comment_params)
-    if @comment.save
+    @comment.user_id = current_user.id
+    if @comment.save!
+      flash[:error] = "Test comments save."
       redirect_to article_path(@article)
     else
-      render 'new'
+      #render 'new'
+      flash[:error] = "Error saving the comment."
+      redirect_to article_path(@article)
     end
   end
 
