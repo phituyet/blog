@@ -23,6 +23,7 @@
       <a class="navbar-brand" href="<%= root_path %>"> Blog</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <!-- Log in/Out Logic -->
           <% if user_signed_in? %>
             <li class="nav-item">
               <a class="nav-link" data-method='delete' href="<%= destroy_user_session_path %>">Log Out</a>
@@ -50,6 +51,14 @@
         </form>
       </div>
     </nav>
+    <!-- Flash Notice -->
+    <% unless  flash.empty? %>
+      <div class="container">
+        <% flash.each do |key, value| %>
+          <%= value %>
+        <% end %>
+      </div>
+    <% end %>
     <!-- yield to Controller -->
     <div class="container">
       <%= yield %>
