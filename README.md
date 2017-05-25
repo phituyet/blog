@@ -34,8 +34,8 @@ The following is a list of **required** features of the application you'll build
 * [x] User can Sign Up, Log In, & Sign Out of our application using the Devise gem.      
 * [x] The navbar will be responsive as well as **smart**, showing the user logical options related to authentication.
 * [x] Only users that are logged in can create Articles.
-* [ ] Users can only edit & delete their own Articles.
-* [ ] User can only edit & delete their own comments.
+* [x] Users can only edit & delete their own Articles.
+* [x] User can only edit & delete their own comments.
 
 
 The following **optional** features are implemented:
