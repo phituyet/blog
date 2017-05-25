@@ -34,6 +34,7 @@ gem 'jquery-rails', "~> 4.3.1"
 gem 'redcarpet'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
+gem 'impressionist', git: 'https://github.com/charlotte-ruby/impressionist.git'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

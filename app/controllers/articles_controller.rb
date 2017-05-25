@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
-
+  impressionist actions: [:show], unique: [:session_hash]
   # GET /articles
   # GET /articles.json
   def index
@@ -17,6 +17,7 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
+    impressionist(@article)
   end
 
   # GET /articles/new

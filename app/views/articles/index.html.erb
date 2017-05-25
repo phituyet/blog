@@ -16,6 +16,7 @@
         <th>Title</th>
         <th>Created At</th>
         <th>Created By</th>
+        <th>Views</th>
         <th>Body</th>
         <th colspan="3"></th>
       </tr>
@@ -26,6 +27,7 @@
         <td><%= article.title %></td>
         <td><%= time_ago_in_words(article.created_at) %></td>
         <td><%= article.user.email %></td>
+        <td><%= article.impressionist_count %></td>
         <td><%= @markdown.render(article.body).html_safe %></td>
         <td><%= link_to 'Show', article %></td>
         <% if user_signed_in? %>
