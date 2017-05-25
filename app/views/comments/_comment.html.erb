@@ -1,7 +1,8 @@
 <p><%= comment.content %></p>
 <% if user_signed_in? %>
-  <% if comment.user_id == current_user.id %>
+  <% if comment.user == current_user %>
     <%= link_to 'Edit', edit_article_comment_path(comment.article,comment), class: "btn btn-success" %>
     <%= link_to 'Delete', article_comment_path(comment.article, comment), method: :delete, data: {confirm: "Are u sure to delete this comment?"} %>
   <% end %>
 <% end %>
+<h6> Comment by: <%= comment.user.email %> </h6>
