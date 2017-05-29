@@ -2,6 +2,6 @@
   <h1> Edit Comment: </h1>
     <%= form_for [@article, @comment] do |f| %>
     <%= f.text_field :content, label: "Comment", size: "100x10" %>
-    <%= f.button :submit, class: "btn btn-success" %>
+    <%= f.button :submit, class: "btn btn-primary" %>
   <% end %>
 </div>

@@ -42,6 +42,10 @@
               <a class="nav-link" href="<%= new_user_session_path %>">Log in</a>
             </li>
           <% end %>
+          <!-- for page about -->
+          <li class="nav-item">
+            <a class="nav-link" href="<%= about_path %>">About</a>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <%= form_tag(articles_path, :method => "get", id: "search-form") do %>
