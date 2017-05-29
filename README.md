@@ -1,5 +1,5 @@
 # README
-# Pre-work - *Name of App Here*
+# Pre-work - *coderschool.vn-phuonghoang713-blog*
 
 > HINT: Please
 > - include this README.md in your project and fill out the information.
@@ -8,11 +8,11 @@
 
 **Name of your app** is a Ruby on Rails blog application.
 
-Submitted by: **Your Name Here**
+Submitted by: **Hoang Nguyen**
 
-Time spent: **X** hours spent in total
+Time spent: **24** hours spent in total
 
-URL: **Insert your Heroku URL here**
+URL: **https://serene-plains-93341.herokuapp.com/**
 
 ## User Stories
 
@@ -71,7 +71,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Hoang Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -84,26 +84,3 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-----------------------------------------------------------------------------------
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
