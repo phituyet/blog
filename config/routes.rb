@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  get '/users/sign_out', controller: "devise/sessions", action: "destroy"
   resources :articles do
     resources :comments
   end
