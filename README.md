@@ -6,11 +6,11 @@
 > - remove the `README.rdoc` file that Rails generates.
 > - remove all the HINT blocks in this file.
 
-**Name of your app** is a Ruby on Rails blog application.
+**MyblogPhuonghoang713** is a Ruby on Rails blog application.
 
 Submitted by: **Hoang Nguyen**
 
-Time spent: **24** hours spent in total
+Time spent: **36** hours spent in total
 
 URL: **https://serene-plains-93341.herokuapp.com/**
 
@@ -61,13 +61,16 @@ Here's a walkthrough of implemented user stories:
 > `![Video Walkthrough](walkthrough.gif)`
 >
 
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](app/assets/images/coderschool-phuonghoang713-blog.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+* In file application.js, I  put require jquery_ujs before require jquery. in local , it work ok but in heroku, it make error
+* we can use article.use.name when define belong_to users.
 
 ## License
 
